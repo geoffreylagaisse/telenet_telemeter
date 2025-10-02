@@ -205,7 +205,7 @@ entities:
     name: resterend
     icon: mdi:calendar
   - entity: sensor.telenet_telemeter
-    attribute: includedvolume_usage
+    attribute: peak_usage * 1024 * 1024
     decimals: 1
     unit: Gb
     name: verbruikt
