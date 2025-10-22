@@ -137,6 +137,8 @@ def get_desired_internet_product(products, desired_product_type):
     # Try to find a product with productType = "bundle"
     _LOGGER.debug(f'products: {products}, {desired_product_type}')
     bundle_product = next((product for product in products if product.get('productType','').lower() == desired_product_type), None)
+    if desired_product_type == 'bundle' and not bundle_product.get('products'):
+        bundle_product = None
     _LOGGER.debug(f'desired_product: {bundle_product}, {desired_product_type}')
     
     # If no bundle is found, look for productType = "internet"
