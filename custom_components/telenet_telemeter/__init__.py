@@ -6,7 +6,6 @@ from homeassistant import config_entries
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.helpers.typing import ConfigType
 from homeassistant.core import HomeAssistant
-from homeassistant.core_config import Config
 from homeassistant.const import Platform
 from .utils import TelenetSession
 from homeassistant.const import (
