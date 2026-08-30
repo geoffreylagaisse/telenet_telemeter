@@ -1,10 +1,10 @@
 [![HACS Default](https://img.shields.io/badge/HACS-Default-blue.svg)](https://github.com/hacs/default)
-[![GitHub release](https://img.shields.io/github/release/myTselection/telenet_telemeter.svg)](https://github.com/myTselection/telenet_telemeter/releases)
-![GitHub repo size](https://img.shields.io/github/repo-size/myTselection/telenet_telemeter.svg)
+[![GitHub release](https://img.shields.io/github/release/myTselectionPublic/telenet_telemeter.svg)](https://github.com/myTselectionPublic/telenet_telemeter/releases)
+![GitHub repo size](https://img.shields.io/github/repo-size/myTselectionPublic/telenet_telemeter.svg)
 
-[![GitHub issues](https://img.shields.io/github/issues/myTselection/telenet_telemeter.svg)](https://github.com/myTselection/telenet_telemeter/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/myTselection/telenet_telemeter.svg)](https://github.com/myTselection/telenet_telemeter/commits/main)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/myTselection/telenet_telemeter.svg)](https://github.com/myTselection/telenet_telemeter/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/myTselectionPublic/telenet_telemeter.svg)](https://github.com/myTselectionPublic/telenet_telemeter/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/myTselectionPublic/telenet_telemeter.svg)](https://github.com/myTselectionPublic/telenet_telemeter/commits/main)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/myTselectionPublic/telenet_telemeter.svg)](https://github.com/myTselectionPublic/telenet_telemeter/graphs/commit-activity)
 
 # Telenet / BASE Telemeter Home Assistant Integration
 
@@ -25,7 +25,7 @@ Originally based on the Python application by [Killian Meersman](https://github.
 ## Installation
 
 - [HACS](https://hacs.xyz/): search for **Telenet Telemeter** in HACS integrations and install it.
-  - [![Open your Home Assistant instance and open the repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg?style=flat-square)](https://my.home-assistant.io/redirect/hacs_repository/?owner=myTselection&repository=telenet_telemeter&category=integration)
+  - [![Open your Home Assistant instance and open the repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg?style=flat-square)](https://my.home-assistant.io/redirect/hacs_repository/?owner=myTselectionPublic&repository=telenet_telemeter&category=integration)
 - Restart Home Assistant.
 - Add **Telenet Telemeter** from **Settings > Devices & Services > Integrations**.
 - Select provider: `Telenet` or `BASE`.
@@ -200,10 +200,10 @@ data: {}
 
 ## Technical Pointers
 
-- [sensor.py](https://github.com/myTselection/telenet_telemeter/blob/main/custom_components/telenet_telemeter/sensor.py)
-- [switch.py](https://github.com/myTselection/telenet_telemeter/blob/main/custom_components/telenet_telemeter/switch.py)
-- [coordinator.py](https://github.com/myTselection/telenet_telemeter/blob/main/custom_components/telenet_telemeter/coordinator.py)
-- [utils.py](https://github.com/myTselection/telenet_telemeter/blob/main/custom_components/telenet_telemeter/utils.py) - `TelenetSession` API client
+- [sensor.py](https://github.com/myTselectionPublic/telenet_telemeter/blob/main/custom_components/telenet_telemeter/sensor.py)
+- [switch.py](https://github.com/myTselectionPublic/telenet_telemeter/blob/main/custom_components/telenet_telemeter/switch.py)
+- [coordinator.py](https://github.com/myTselectionPublic/telenet_telemeter/blob/main/custom_components/telenet_telemeter/coordinator.py)
+- [utils.py](https://github.com/myTselectionPublic/telenet_telemeter/blob/main/custom_components/telenet_telemeter/utils.py) - `TelenetSession` API client
 
 Enable debug logging in `configuration.yaml`:
 
@@ -401,4 +401,4 @@ card:
 
 ## Status
 
-See [Issues](https://github.com/myTselection/telenet_telemeter/issues) for planned improvements.
+See [Issues](https://github.com/myTselectionPublic/telenet_telemeter/issues) for planned improvements.
